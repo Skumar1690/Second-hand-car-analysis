@@ -1,23 +1,25 @@
-# Second-hand-car-analysis
-Analyzed a second-hand car dataset from Kaggle using SQL. Performed data extraction, filtering with WHERE, and aggregation with GROUP BY and HAVING clauses to uncover trends and provide actionable insights.
+# Second-Hand Car Market Analysis
 
+## Overview
+Analyzed the Car Dekho dataset (~8,126 used cars) from Kaggle to uncover trends in car availability, fuel types, and sales.
 
-## Project Overview
+## Tools
+- **SQL** and **MySQL**: Data extraction and aggregation.
+- **Power BI** (in progress): Planned interactive dashboards.
 
-This project involves analyzing a second-hand car dataset sourced from Kaggle. The analysis was performed using SQL to extract, filter, and aggregate data to uncover key trends and insights.
+## Analysis
+- SQL queries: Total cars, cars by year, fuel trends, etc. (see `analysis.sql`).
+- Planned Power BI dashboards:
+  - Overview: Total cars (~8,126), cars by year, fuel distribution.
+  - Yearly Trends: Cars in 2020–2022, years with >100 cars.
+  - Fuel Insights: Diesel (2020), Petrol (2022), fuel by year.
+  - Price Trends: Average selling price (2015–2023).
+- Placeholder PDF: Describes planned visuals (see `docs/car_dekho_dashboards.pdf`).
 
-## Data Collection & Analysis
+## Files
+- `car_details.csv`: Raw dataset (from Kaggle).
+- `analysis.sql`: SQL queries.
+- `docs/car_dekho_dashboards.pdf`: Simulated Power BI output (to be replaced with actual dashboards).
 
-- **Dataset Source:** Kaggle
-- **Data Analysis:** Utilized SQL to perform data extraction and filtering, and applied `WHERE`, `GROUP BY`, and `HAVING` clauses for detailed analysis.
-- **Insights:** Developed and executed queries to identify key trends and provide actionable insights for decision-making.
-
-## Queries & Techniques
-
-- **Data Extraction:** Used SQL queries to read and filter data based on specific criteria.
-- **Aggregation:** Implemented `GROUP BY` and `HAVING` clauses to aggregate and summarize data.
-- **Trend Analysis:** Analyzed data to uncover significant trends and patterns.
-
-## Tools Used
-
-- SQL
+## Next Steps
+- Will update with final PDF and screenshots.
