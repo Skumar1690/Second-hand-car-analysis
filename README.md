@@ -19,7 +19,7 @@ Analyzed the Car Dekho dataset (~8,126 used cars) from Kaggle to uncover trends 
 ## Files
 - `car_details.csv`: Raw dataset (from Kaggle).
 - `analysis.sql`: SQL queries.
-- `docs/car_dekho_dashboards.pdf`: Simulated Power BI output (to be replaced with actual dashboards).
+- `screenshots/`: Dashboard images.
 
 ## Next Steps
 - Will update with final PDF and screenshots.
